@@ -8,6 +8,7 @@
 
 #import "MyNotification.h"
 #import "Notification.h"
+
 @implementation MyNotification
 +(id)shareNotification{
 
@@ -44,7 +45,7 @@
 
     Notification *no = _dic[name];
 
-    objc_msgSend(no.delegate,no.selector,no);
+//    objc_msgSend(no.delegate,no.selector,no);
 
 }
 @end

@@ -11,6 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface MessageBusManager : NSObject
++(id)shareMessageManager;
 
 @end
 
