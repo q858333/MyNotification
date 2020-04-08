@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "MyNotification.h"
 #import "Notification.h"
+#import "MessageBusManager.h"
 @interface AppDelegate ()
 
 @end
@@ -17,10 +18,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    [[MyNotification shareNotification] addObserver:self selector:@selector(show:) name:@"name"];
+    [[MessageBusManager shareMessageManager] addAppObserver:self messageName:@"123" selector:@selector(message:) priority:1 excuteThreadMode:0];
+//    [[MyNotification shareNotification] addObserver:self selector:@selector(show:) name:@"name"];
     // Override point for customization after application launch.
     return YES;
+}
+- (void)message:(id)object{
+    NSLog(@"111111111%@",object);
 }
 -(void)show:(Notification *)no
 {

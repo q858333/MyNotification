@@ -11,6 +11,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface DBMessage : NSObject
+@property (nonatomic, strong)id data;
+@property (nonatomic, copy)NSString  *messageName;
 
 @end
 

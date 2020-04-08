@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "939E88E9-77B8-4115-A849-673D911C96BC"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "242F3A90-1D1D-4360-9170-FF5447311AD4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomNotification/AppDelegate.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "-message:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D32CE4D7-5B1C-4129-8214-6747160AD7D6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomNotification/MessageBusManager/MessageBusManager.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "-postMessageWithMessageName:data:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D32CE4D7-5B1C-4129-8214-6747160AD7D6 - 4928097a53b0c9fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[MessageBusManager addAppObserver:messageName:selector:priority:excuteThreadMode:]"
+                  moduleName = "CustomNotification"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dengbin/Documents/demo/mygit/MessageBusManager/MyNotification/CustomNotification/CustomNotification/MessageBusManager/MessageBusManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "496">
+               </Location>
+               <Location
+                  uuid = "D32CE4D7-5B1C-4129-8214-6747160AD7D6 - 4928097a53b0c9fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[MessageBusManager addAppObserver:messageName:selector:priority:excuteThreadMode:]"
+                  moduleName = "CustomNotification"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dengbin/Documents/demo/mygit/MessageBusManager/MyNotification/CustomNotification/CustomNotification/MessageBusManager/MessageBusManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "960">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

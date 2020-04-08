@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC1CC548243DA45B0088EA8C /* MessageBusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1CC547243DA45B0088EA8C /* MessageBusManager.m */; };
+		EC1CC54C243DA4C60088EA8C /* DBObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1CC54B243DA4C60088EA8C /* DBObserver.m */; };
+		EC1CC54F243DA4F70088EA8C /* DBMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1CC54E243DA4F70088EA8C /* DBMessage.m */; };
 		F73EECB51BE7597000F7064D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F73EECB41BE7597000F7064D /* main.m */; };
 		F73EECB81BE7597000F7064D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F73EECB71BE7597000F7064D /* AppDelegate.m */; };
 		F73EECBB1BE7597000F7064D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73EECBA1BE7597000F7064D /* ViewController.m */; };
@@ -15,8 +18,8 @@
 		F73EECC31BE7597000F7064D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73EECC11BE7597000F7064D /* LaunchScreen.storyboard */; };
 		F73EECCE1BE7597000F7064D /* CustomNotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F73EECCD1BE7597000F7064D /* CustomNotificationTests.m */; };
 		F73EECD91BE7597000F7064D /* CustomNotificationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F73EECD81BE7597000F7064D /* CustomNotificationUITests.m */; };
-		F73EECEB1BE75BE700F7064D /* MyNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = F73EECEA1BE75BE700F7064D /* MyNotification.m */; settings = {ASSET_TAGS = (); }; };
-		F73EECEE1BE7612D00F7064D /* Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = F73EECED1BE7612D00F7064D /* Notification.m */; settings = {ASSET_TAGS = (); }; };
+		F73EECEB1BE75BE700F7064D /* MyNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = F73EECEA1BE75BE700F7064D /* MyNotification.m */; };
+		F73EECEE1BE7612D00F7064D /* Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = F73EECED1BE7612D00F7064D /* Notification.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC1CC546243DA45B0088EA8C /* MessageBusManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageBusManager.h; sourceTree = "<group>"; };
+		EC1CC547243DA45B0088EA8C /* MessageBusManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageBusManager.m; sourceTree = "<group>"; };
+		EC1CC54A243DA4C60088EA8C /* DBObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBObserver.h; sourceTree = "<group>"; };
+		EC1CC54B243DA4C60088EA8C /* DBObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBObserver.m; sourceTree = "<group>"; };
+		EC1CC54D243DA4F70088EA8C /* DBMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBMessage.h; sourceTree = "<group>"; };
+		EC1CC54E243DA4F70088EA8C /* DBMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBMessage.m; sourceTree = "<group>"; };
 		F73EECB01BE7597000F7064D /* CustomNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73EECB41BE7597000F7064D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F73EECB61BE7597000F7064D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,6 +93,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC1CC545243DA4470088EA8C /* MessageBusManager */ = {
+			isa = PBXGroup;
+			children = (
+				EC1CC546243DA45B0088EA8C /* MessageBusManager.h */,
+				EC1CC547243DA45B0088EA8C /* MessageBusManager.m */,
+				EC1CC54A243DA4C60088EA8C /* DBObserver.h */,
+				EC1CC54B243DA4C60088EA8C /* DBObserver.m */,
+				EC1CC54D243DA4F70088EA8C /* DBMessage.h */,
+				EC1CC54E243DA4F70088EA8C /* DBMessage.m */,
+			);
+			path = MessageBusManager;
+			sourceTree = "<group>";
+		};
+		EC1CC549243DA4610088EA8C /* Mynotification */ = {
+			isa = PBXGroup;
+			children = (
+				F73EECE91BE75BE700F7064D /* MyNotification.h */,
+				F73EECEA1BE75BE700F7064D /* MyNotification.m */,
+				F73EECEC1BE7612D00F7064D /* Notification.h */,
+				F73EECED1BE7612D00F7064D /* Notification.m */,
+			);
+			name = Mynotification;
+			sourceTree = "<group>";
+		};
 		F73EECA71BE7597000F7064D = {
 			isa = PBXGroup;
 			children = (
@@ -111,10 +144,8 @@
 				F73EECB71BE7597000F7064D /* AppDelegate.m */,
 				F73EECB91BE7597000F7064D /* ViewController.h */,
 				F73EECBA1BE7597000F7064D /* ViewController.m */,
-				F73EECE91BE75BE700F7064D /* MyNotification.h */,
-				F73EECEA1BE75BE700F7064D /* MyNotification.m */,
-				F73EECEC1BE7612D00F7064D /* Notification.h */,
-				F73EECED1BE7612D00F7064D /* Notification.m */,
+				EC1CC549243DA4610088EA8C /* Mynotification */,
+				EC1CC545243DA4470088EA8C /* MessageBusManager */,
 				F73EECBC1BE7597000F7064D /* Main.storyboard */,
 				F73EECBF1BE7597000F7064D /* Assets.xcassets */,
 				F73EECC11BE7597000F7064D /* LaunchScreen.storyboard */,
@@ -233,6 +264,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -281,10 +313,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F73EECEB1BE75BE700F7064D /* MyNotification.m in Sources */,
+				EC1CC54F243DA4F70088EA8C /* DBMessage.m in Sources */,
 				F73EECBB1BE7597000F7064D /* ViewController.m in Sources */,
+				EC1CC548243DA45B0088EA8C /* MessageBusManager.m in Sources */,
 				F73EECEE1BE7612D00F7064D /* Notification.m in Sources */,
 				F73EECB81BE7597000F7064D /* AppDelegate.m in Sources */,
 				F73EECB51BE7597000F7064D /* main.m in Sources */,
+				EC1CC54C243DA4C60088EA8C /* DBObserver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +543,7 @@
 				F73EECDF1BE7597000F7064D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F73EECE01BE7597000F7064D /* Build configuration list for PBXNativeTarget "CustomNotificationTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +552,7 @@
 				F73EECE21BE7597000F7064D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F73EECE31BE7597000F7064D /* Build configuration list for PBXNativeTarget "CustomNotificationUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +561,7 @@
 				F73EECE51BE7597000F7064D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

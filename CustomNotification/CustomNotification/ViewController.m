@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "MyNotification.h"
+#import "MessageBusManager.h"
 @interface ViewController ()
 
 @end
@@ -16,8 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [[MyNotification shareNotification] postWithName:@"name"];
+//    [[MyNotification shareNotification] postWithName:@"name"];
     
+    [[MessageBusManager shareMessageManager] postMessageWithMessageName:@"123"];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
