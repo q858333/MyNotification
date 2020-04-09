@@ -107,8 +107,8 @@ dispatch_async(dispatch_get_main_queue(), block);\
     void (*func)(id, SEL,id) = (void *)imp;
     func(target, selector,object);
 
-
 }
+
 - (void)removeObserver:(NSObject *)observer{
     @synchronized (self) {
         [self.messageDic enumerateKeysAndObjectsUsingBlock:^(NSString  *key, NSMutableArray  *observers, BOOL * _Nonnull stop) {
